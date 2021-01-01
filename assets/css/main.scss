@@ -8,6 +8,17 @@ $link-color:  #007bb6 !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+// link format
+
+.page__content a {
+  text-decoration: none;
+}
+
+.page__content a:hover {
+  text-decoration: underline;
+}
+
 // Publication.  Need custom formatting to get the thumb on the left. Adapted from https://xgitlab.cels.anl.gov/argo/website/blob/master/assets/css/main.scss
 .pub {
     p {
