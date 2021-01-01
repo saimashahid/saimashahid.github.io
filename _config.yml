@@ -18,7 +18,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "en-US"
 title                    : "Saima Shahid"
 title_separator          : "|"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : "Small RNA · Epigenetics · Parasitic plants  ·  Bioinformatics" # site tagline that appears below site title in masthead
 name                     : "Saima Shahid"
 description              : ""
 url                      : "https://saimashahid.github.io"
@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "Saima Shahid"
   avatar           : "/assets/images/SS.jpg"
-  bio              : "Simons Fellow for the Life Sciences Research Foundation"
+  bio              : "Simons Fellow for the Life Sciences Research Foundation <br> Postdoctoral Associate at the Donald Danforth Plant Science Center"
   location         : "St. Louis, MO"
   email            : "saimashahid.du@gmail.com"
   googlescholar    : "lez4bcIAAAAJ"
@@ -173,8 +173,7 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+  - .DS_Store
 keep_files:
   - .git
   - .svn
